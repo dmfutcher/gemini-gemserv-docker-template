@@ -1,0 +1,7 @@
+FROM djongepier/gemserv-alpine:amd64
+
+COPY gemini-cert-local.pem /etc/cert/cert.pem
+COPY gemini-key-local.rsa  /etc/cert/key.rsa
+COPY config.toml /gemserv/config.toml
+
+COPY content /gemroot
