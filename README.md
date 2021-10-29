@@ -1,6 +1,6 @@
 # gemini-gemserv-docker-template
 
-A template for a Gemeni protocol capsule using gemserv and Docker.
+A template for a Gemini protocol capsule using gemserv and Docker.
 
 ## Instructions
 
